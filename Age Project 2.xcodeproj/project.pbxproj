@@ -14,6 +14,7 @@
 		DD35F4041F4270C10022DDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD35F4021F4270C10022DDB1 /* LaunchScreen.storyboard */; };
 		DD35F40F1F4270C10022DDB1 /* Age_Project_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35F40E1F4270C10022DDB1 /* Age_Project_2Tests.swift */; };
 		DD35F41A1F4270C10022DDB1 /* Age_Project_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35F4191F4270C10022DDB1 /* Age_Project_2UITests.swift */; };
+		DD35F42A1F42741E0022DDB1 /* Ladies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD35F4291F4273A90022DDB1 /* Ladies.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DD35F4151F4270C10022DDB1 /* Age Project 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age Project 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD35F4191F4270C10022DDB1 /* Age_Project_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_Project_2UITests.swift; sourceTree = "<group>"; };
 		DD35F41B1F4270C10022DDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD35F4291F4273A90022DDB1 /* Ladies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ladies.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DD35F4001F4270C10022DDB1 /* Assets.xcassets */,
 				DD35F4021F4270C10022DDB1 /* LaunchScreen.storyboard */,
 				DD35F4051F4270C10022DDB1 /* Info.plist */,
+				DD35F4291F4273A90022DDB1 /* Ladies.jpg */,
 			);
 			path = "Age Project 2";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				DD35F4041F4270C10022DDB1 /* LaunchScreen.storyboard in Resources */,
 				DD35F4011F4270C10022DDB1 /* Assets.xcassets in Resources */,
 				DD35F3FF1F4270C10022DDB1 /* Main.storyboard in Resources */,
+				DD35F42A1F42741E0022DDB1 /* Ladies.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
