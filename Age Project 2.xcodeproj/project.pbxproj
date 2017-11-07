@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D08BF8A4070378FAB62BACB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7169FCF988B53157CF1A781E /* CoreVideo.framework */; };
+		3919BD5B80A8A2B8A39E559E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3051E88EA387A9B5D61F08F6 /* CoreText.framework */; };
+		5E6E96F5947985AA8CC261AB /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E889299E4C31FA14DBE7A9D4 /* BuddyBuildSDK.framework */; };
+		721290AA9831B9693F7FCC74 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF1DB922D4DE9A1FC5E2057 /* CoreTelephony.framework */; };
+		9CBC2D12FDF137AA953EE085 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A01CE6671F45B4F285E5E3 /* QuartzCore.framework */; };
+		AD52059FBED39AA2D121CB68 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BF78F01F4D48E0FB0048C2 /* AVFoundation.framework */; };
+		B1BA77E9B27B18AF8841712D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABD1DBA3A0FF3187CA4DDC9 /* CoreMedia.framework */; };
+		CED065A586C9AA569DFA62F4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F633D64C15A2E70D69BD919 /* SystemConfiguration.framework */; };
 		DD35F3FA1F4270C10022DDB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35F3F91F4270C10022DDB1 /* AppDelegate.swift */; };
 		DD35F3FC1F4270C10022DDB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35F3FB1F4270C10022DDB1 /* ViewController.swift */; };
 		DD35F3FF1F4270C10022DDB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD35F3FD1F4270C10022DDB1 /* Main.storyboard */; };
@@ -15,6 +23,7 @@
 		DD35F40F1F4270C10022DDB1 /* Age_Project_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35F40E1F4270C10022DDB1 /* Age_Project_2Tests.swift */; };
 		DD35F41A1F4270C10022DDB1 /* Age_Project_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35F4191F4270C10022DDB1 /* Age_Project_2UITests.swift */; };
 		DD35F42A1F42741E0022DDB1 /* Ladies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD35F4291F4273A90022DDB1 /* Ladies.jpg */; };
+		E9FCE070DCB3C126652A73D0 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADC464CE62DED786DB51377 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FF1DB922D4DE9A1FC5E2057 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1AC83482BB4402B30F583317 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		3051E88EA387A9B5D61F08F6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		58A01CE6671F45B4F285E5E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6ADC464CE62DED786DB51377 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7169FCF988B53157CF1A781E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7F633D64C15A2E70D69BD919 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A5BF78F01F4D48E0FB0048C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CABD1DBA3A0FF3187CA4DDC9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		DD35F3F61F4270C10022DDB1 /* Age Project 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Age Project 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD35F3F91F4270C10022DDB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD35F3FB1F4270C10022DDB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +67,7 @@
 		DD35F4191F4270C10022DDB1 /* Age_Project_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_Project_2UITests.swift; sourceTree = "<group>"; };
 		DD35F41B1F4270C10022DDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD35F4291F4273A90022DDB1 /* Ladies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ladies.jpg; sourceTree = "<group>"; };
+		E889299E4C31FA14DBE7A9D4 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6E96F5947985AA8CC261AB /* BuddyBuildSDK.framework in Frameworks */,
+				E9FCE070DCB3C126652A73D0 /* AssetsLibrary.framework in Frameworks */,
+				3919BD5B80A8A2B8A39E559E /* CoreText.framework in Frameworks */,
+				721290AA9831B9693F7FCC74 /* CoreTelephony.framework in Frameworks */,
+				CED065A586C9AA569DFA62F4 /* SystemConfiguration.framework in Frameworks */,
+				9CBC2D12FDF137AA953EE085 /* QuartzCore.framework in Frameworks */,
+				AD52059FBED39AA2D121CB68 /* AVFoundation.framework in Frameworks */,
+				B1BA77E9B27B18AF8841712D /* CoreMedia.framework in Frameworks */,
+				2D08BF8A4070378FAB62BACB /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +104,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6AA2BF7F7BFAE5F811041A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E889299E4C31FA14DBE7A9D4 /* BuddyBuildSDK.framework */,
+				6ADC464CE62DED786DB51377 /* AssetsLibrary.framework */,
+				3051E88EA387A9B5D61F08F6 /* CoreText.framework */,
+				0FF1DB922D4DE9A1FC5E2057 /* CoreTelephony.framework */,
+				7F633D64C15A2E70D69BD919 /* SystemConfiguration.framework */,
+				58A01CE6671F45B4F285E5E3 /* QuartzCore.framework */,
+				A5BF78F01F4D48E0FB0048C2 /* AVFoundation.framework */,
+				CABD1DBA3A0FF3187CA4DDC9 /* CoreMedia.framework */,
+				7169FCF988B53157CF1A781E /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD35F3ED1F4270C10022DDB1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				DD35F40D1F4270C10022DDB1 /* Age Project 2Tests */,
 				DD35F4181F4270C10022DDB1 /* Age Project 2UITests */,
 				DD35F3F71F4270C10022DDB1 /* Products */,
+				C6AA2BF7F7BFAE5F811041A3 /* Frameworks */,
+				1AC83482BB4402B30F583317 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -427,10 +473,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Age Project 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wmschott.Age-Project-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,10 +491,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Age Project 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wmschott.Age-Project-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
